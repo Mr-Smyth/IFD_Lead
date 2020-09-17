@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="assets/style.css" type="text/css">
+	<title>Customize</title>
+</head>
+
+<body>
+
+	<div class="container center normal">
+		<a class="logo" href="index.html">My Customized Website</a>
+	</div>
+
+	<!-- A SELECTOR TO PICK PREFERRED STYLE NORMAL OR DARK -->
+	<div class="container center normal">
+		<form id="myToolbar">
+			<input type="radio" id="styleChoice1" name="set-style" value="normal" checked>
+			<label for="styleChoice1">Normal style</label>
+			<input type="radio" id="styleChoice2" name="set-style" value="dark">
+			<label for="styleChoice2">Dark style</label>
+		</form>
+		<div id="status" class="center">The current style is Normal</div>
+		<div id="myName" class="center">My current name is to be decided</div>
+		<div id="myEmail" class="center">My email is also a mystery</div>
+	</div>
+	<!-- A SIMPLE FORM TO ENTER NAME AND EMAIL, AND PICK FAV COLOUR -->
+	<div class="container center normal">
+		<form id="myForm">
+			<label for="fullName">Full Name</label>
+			<input type="text" id="fullName" name="fullName" class="shadow">
+			<label for="email">Email Address</label>
+			<input type="text" id="email" name="email" class="shadow">
+			<label for="favColour">What is your fav. colour</label>
+			<select name="favColour" id="favColour" class="shadow">
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+                <option value="Orange">Orange</option>
+            </select>
+			<button class="btn shadow">Click me!</button>
+
+		</form>
+	</div>
+	<script src="assets/script.js" type="application/javascript">
+		>
+	</script>
+</body>
+
+</html>

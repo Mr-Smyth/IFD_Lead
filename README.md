@@ -1,39 +1,27 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Interactive Frontend Lead call for a customized website
 
-Welcome USER_NAME,
+This is a simple front end page that allows the user to change the color scheme and enter information to be displayed on the screen.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Technologies:
 
-## Gitpod Reminders
+* HTML5
+* CSS
+* Vanilla Javascript
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Key Skills covered in tutorial:
 
-`python3 -m http.server`
+* ### How to target id's or classes in a variety of ways.   
+    * Mostly query selector and get document by id, as i feel these cover most bases.  
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+* ### How to grab a selection from a radio button, and do something with that selection by using Javascript.   
+    * Demonstrates Listeners, and removing and setting style classes.    
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+* ### How to Save a variable to local storage and then recall and reuse that variable.   
+    * Demonstrates storing information without a DB. Useful for sharing information accross js files, saving preferences and also sharing accross functions
+    if global variables were not preferred.   
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+* ### How to Take user information from a form and display it to, and modify to the DOM with a preferred colour.   
+    * Demonstrating how to 'Get' and 'Set' dom elements innerText/InnerHtml.     

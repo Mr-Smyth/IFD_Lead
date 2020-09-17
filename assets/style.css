@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.btn {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#favColour {
+    font-size: 1.5rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 9rem;
+}
+    
+.logo {
+    font-size: 4rem;
+    text-decoration: none;
+}
+    
+#myForm {
+    height: 20rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+    
+input {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    background-color: tan;
+}
+    
+.shadow {
+    box-shadow: 2px 2px 5px 0px rgb(40, 3, 83);
+}
+
+.normal {
+    background-color: lightblue;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: lightblue;
+}
