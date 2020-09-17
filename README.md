@@ -1,4 +1,4 @@
-# Interactive Frontend Lead call for a customized website
+# Interactive Frontend Lead call for an Interactive website
 
 This is a simple front end page that allows the user to change the color scheme and enter information to be displayed on the screen.
 
